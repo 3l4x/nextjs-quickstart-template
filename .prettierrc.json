@@ -1,0 +1,39 @@
+{
+	"printWidth": 80,
+	"tabWidth": 2,
+	"useTabs": true,
+	"semi": true,
+	"singleQuote": true,
+	"trailingComma": "none",
+	"bracketSameLine": false,
+	"importOrder": [
+		"^react$",
+		"^react-native$",
+		"^react-native-.*$",
+		"^@material-ui/(.*)$",
+		"^@material-ui/core/(.*)$",
+		"^@material-ui/icons/(.*)$",
+		"^@fontawesome/(.*)$",
+		"^@fontawesome/pro-(.*)$",
+		"^[a-z]",
+		"^/@components/(.*)$",
+		"^/@lib/(.*)$",
+		"^/@hooks/(.*)$",
+		"^/@redux/(.*)$",
+		"^/@utils/(.*)$",
+		"^/@services/(.*)$",
+		"^/@constants/(.*)$",
+		"^/@assets/(.*)$",
+		"^/@styles/(.*)$",
+		"^/@theme/(.*)$",
+		"^[./]"
+	],
+	"importOrderParserPlugins": [
+		"typescript",
+		"jsx",
+		"decorators-legacy"
+	],
+	"plugins": [
+		"@ianvs/prettier-plugin-sort-imports"
+	]
+}

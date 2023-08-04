@@ -1,0 +1,37 @@
+{
+	"name": "nextjs-quickstart-template",
+	"version": "0.1.0",
+	"private": true,
+	"scripts": {
+		"dev": "next dev",
+		"build": "next build",
+		"start": "next start",
+		"prettier:check": "prettier --check .",
+		"lint:prettier": "prettier --write .",
+		"lint:eslint": "eslint . --ext js,jsx,ts,tsx --max-warnings=0 --config .eslintrc.json --no-eslintrc",
+		"lint": "npm run lint:prettier && npm run lint:eslint"
+	},
+	"dependencies": {
+		"@types/node": "20.4.7",
+		"@types/react": "18.2.18",
+		"@types/react-dom": "18.2.7",
+		"next": "13.4.12",
+		"react": "18.2.0",
+		"react-dom": "18.2.0",
+		"typescript": "5.1.6"
+	},
+	"devDependencies": {
+		"@babel/eslint-parser": "^7.22.9",
+		"@ianvs/prettier-plugin-sort-imports": "^4.1.0",
+		"@typescript-eslint/eslint-plugin": "^6.2.1",
+		"@typescript-eslint/parser": "^6.2.1",
+		"eslint": "^8.46.0",
+		"eslint-config-next": "^13.4.12",
+		"eslint-plugin-import": "^2.28.0",
+		"eslint-plugin-jest": "^27.2.3",
+		"eslint-plugin-jsdoc": "^46.4.5",
+		"eslint-plugin-react": "^7.33.1",
+		"eslint-plugin-react-hooks": "^5.0.0-canary-7118f5dd7-20230705",
+		"prettier": "3.0.1"
+	}
+}
